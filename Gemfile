@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.0'
+gem 'rails', '>= 5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -24,13 +24,13 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Actionview update
-gem "actionview", ">= 5.1.6.2"
+gem "actionview", ">= 5.2.2.1"
 
-gem "activesupport", ">= 5.1.0"
+gem "activesupport", ">= 5.2.0"
 
-gem "actionpack", ">= 5.1.0"
+gem "actionpack", ">= 5.2.2.1"
 
-gem "activemodel", ">= 5.1.0"
+gem "activemodel", ">= 5.2.2.1"
 
 
 # Use ActiveModel has_secure_password
